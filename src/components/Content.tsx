@@ -52,17 +52,17 @@ const Content = () => {
 
   return (
     <Html>
-      <div className="range-slider">
-        <div className="range-container">
-          <div ref={sliderThumbRef} className="range-slider_thumb">
+      <div className="range__slider">
+        <div className="range__container">
+          <div ref={sliderThumbRef} className="range__thumb">
             {constant.toFixed(2)}
           </div>
-          <div className="range-slider_line">
-            <div ref={sliderLineRef} className="range-slider_line-fill"></div>
+          <div className="range__line">
+            <div ref={sliderLineRef} className="range__line-fill"></div>
           </div>
           <input
             ref={sliderInputRef}
-            className="range-slider_input"
+            className="range__input"
             type="range"
             min="-0.5"
             max="1"

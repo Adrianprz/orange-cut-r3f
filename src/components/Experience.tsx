@@ -1,5 +1,4 @@
 import { Text, Text3D } from "@react-three/drei";
-import fonts from "../utils/fonts";
 import Sphere from "./Sphere/Sphere";
 import SphereSlice from "./Sphere/SphereSlice";
 import { useData } from "../context/DataProvider";
@@ -16,7 +15,6 @@ const Experience = () => {
         rotation={[-1.6, 0, 0]}
         position={[-0.5, -1.04, 2.3]}
         color={"#303030"}
-        font={fonts["Roboto"]}
         anchorX="center"
         anchorY="middle"
         castShadow
